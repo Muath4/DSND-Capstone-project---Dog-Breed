@@ -1,5 +1,5 @@
 # Dog Breed Classifier
-This is the repo of Dog breed classifier project in Udacity ML Nanodegree.
+This is the repo of Dog breed classifier project in Udacity DS Nanodegree.
 
 ## Project Overview
 The goal of the project is to build a machine learning model to process real-world, user-supplied images. The algorithm has to perform two tasks:
@@ -12,6 +12,7 @@ To performing this multiclass classification, we use Convolutional Neural Networ
 2. Detect dog-images we used a pretrained Xception model.
 3. After the image is identified as dog/human, we can pass this image to an CNN model which will process the image and predict the breed that matches the best out of 133 breeds.
 
+#### For project detailes go to my blogpost [here](https://medium.com/@abogbl4/dog-breed-classifier-79f61868f210)
 ## Performance Metric
 To evaluate the performance of my algorithm, I used classification accuracy as the performance metric. All three deep learning models human detector, dog detector, and dog breed classifier were evaluated using the accuracy that these models have obtained in classifying the images.
 
